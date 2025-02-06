@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const wss = new socket.Server({server});
 const chatId = '7465366686'
 const token = '8082287286:AAFJ274HYM5vjUc7Hxs8AQxfO0k8uxKuOkY'
-const serverAddr = 'https://www.google.com/'
+const serverAddr = ''
 const bot = new TelegramBot(token, {polling: true});
 
 // request -------------------------------------------------------------------
